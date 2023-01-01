@@ -1,4 +1,4 @@
-.body{
+body{
     font-family: "roboto",sans-serif;
  }
  .list{
@@ -23,6 +23,9 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 
 }
+.header-link:hover, .header-link:focus{
+    color:
+}
 .auth-nav {
 }
 .auth-nav-item {
@@ -42,6 +45,7 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     color: #434455;
 }
+/* ---------------------HERO--------------- */
 .hero {
 background: #2E2F42; 
 }
@@ -62,4 +66,70 @@ letter-spacing: 0.04em;
 color: #FFFFFF;
 background: #4D5AE5;;
 }
+/* ------------------ABOUT------------------- */
+.about {
+}
+.about-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.22;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.about-list {
 
+}
+.about-item {
+}
+.about-caption {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.22;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.about-subtitle {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.55;
+letter-spacing: 0.02em;
+color: #434455;
+}
+/* ---------------GENERAL------------- */
+.general {
+}
+.general-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+/* ------------------ TEAM-------------------- */
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.team-list {
+}
+.list {
+}
+.team-item {
+}
+.team-caption {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.20px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.team-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #434455;
+}

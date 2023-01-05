@@ -97,7 +97,8 @@ letter-spacing: 0.04em;
 color: #FFFFFF;
 background: #4D5AE5;;
 }
-.hero-btn:hover{
+.hero-btn:hover, 
+.hero-btn:focus {
     background: #404BBF;
 }
 /* ------------------ABOUT------------------- */

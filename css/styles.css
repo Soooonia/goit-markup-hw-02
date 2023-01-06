@@ -35,7 +35,7 @@ body {
   color: var(--most-text-color);
 }
 /*/////////////////////////////////////////// */
-.header-list.header-link.current {
+.header-link.current {
   color: var(--secondary-accent-color);
 }
 /* ///////////////////////////////////////////// */
@@ -49,6 +49,9 @@ body {
 .header-link:hover,
 .header-link:focus {
   color: var(--secondary-accent-color);
+}
+.address {
+  font-style:normal;
 }
 .auth-nav {
 }
@@ -92,6 +95,7 @@ body {
   font-size: 16px;
   line-height: var(--line-height);
   letter-spacing: 0.04em;
+  cursor: pointer;
   color: var(--text-color);
   background: var(--primary-accent-color);
 }
@@ -142,11 +146,13 @@ body {
   letter-spacing: var(--letter-spacing);
 }
 /* ------------------ TEAM-------------------- */
+.team{
+  background: var(--light-background-color);
+}
 .team-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: var(--letter-spacing);
-  background: var(--light-background-color);
 }
 .team-list {
 }
@@ -185,7 +191,7 @@ body {
 .footer-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.50;
   letter-spacing: var(--letter-spacing);
   color: #e7e9fc;
 }
@@ -200,6 +206,7 @@ body {
   font-size: 16px;
   line-height: var(--line-height);
   letter-spacing: 0.04em;
+  cursor: pointer;
   color: var(--text-color);
   background: var(--secondary-accent-color);
 }
@@ -209,6 +216,7 @@ body {
   font-size: 16px;
   line-height: var(--line-height);
   letter-spacing: 0.04em;
+  cursor: pointer;
   color: var(--primary-accent-color);
   background: var(--light-background-color);
 }

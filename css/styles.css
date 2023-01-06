@@ -1,152 +1,152 @@
-
-:root{
-    --most-text-color: #2E2F42;
-    --letter-spacing: 0.02em;
-    --line-height: 1.50;
+:root {
+  --most-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --primary-accent-color: #4d5ae5;
+  --secondary-accent-color: #404bbf;
+  --light-background-color: #f4f4fd;
+  --dark-background-color: #2e2f42;
+  --text-color: #ffffff;
+  --other-color: #e7e9fc;
+  --letter-spacing: 0.02em;
+  --line-height: 1.5;
 }
-body{
-    font-family: "roboto",sans-serif;
- }
- .list{
-    list-style: none;
- }
- .link{
-    text-decoration: none;
- }
- .header {
+body {
+  font-family: "roboto", sans-serif;
+  color: var(--most-text-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.header {
 }
 .header-navigation {
 }
 .header-logo {
-    font-family: 'Raleway' ,sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.33px;
-letter-spacing: 0.03em;
-color: #4D5AE5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.33px;
+  letter-spacing: 0.03em;
+  color: var(--primary-accent-color);
 }
 .header-span {
-    font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1.33px;
-letter-spacing: 0.03em;
-color: var(--most-text-color);
+  color: var(--most-text-color);
 }
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-.header-list .header-item.current {
-    color:
+/*/////////////////////////////////////////// */
+.header-list.header-link.current {
+  color: var(--secondary-accent-color);
 }
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-.header-item {
-    
-}
+/* ///////////////////////////////////////////// */
 .header-link {
-font-weight: 500;
-font-size: 16px;
-line-height: var(--line-height);
-letter-spacing: var(--letter-spacing);
-color: var(--most-text-color);
-
+  font-weight: 500;
+  font-size: 16px;
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
+  color: var(--most-text-color);
 }
-.header-link:hover, .header-link:focus{
-    color: #404BBF;
+.header-link:hover,
+.header-link:focus {
+  color: var(--secondary-accent-color);
 }
 .auth-nav {
-    
 }
 .auth-nav-item {
 }
 .header-mail {
-font-weight: 500;
-font-size: 16px;
-line-height: var(--line-height);
-letter-spacing: var(--letter-spacing);
-color: var(--most-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
+  color: var(--most-text-color);
 }
 .header-tel {
-    font-weight: 400;
-    font-size: 16px;
-    line-height:var(--line-height);
-    letter-spacing:var(--letter-spacing);
-    color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
+  color: var(----secondary-text-color);
 }
-.header-mail:hover, .header-mail:focus, 
-.header-tel:hover, .header-tel:focus{
-    color: #404BBF;
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--secondary-accent-color);
 }
 
 /* ---------------------HERO--------------- */
 .hero {
-background: #2E2F42; 
+  background: var(--dark-background-color);
 }
 .hero-title {
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: var(--letter-spacing);
-color: #FFFFFF;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: var(--letter-spacing);
+  color: var(--text-color);
 }
 .hero-btn {
- font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: var(--line-height);
-letter-spacing: 0.04em;
-color: #FFFFFF;
-background: #4D5AE5;;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: var(--line-height);
+  letter-spacing: 0.04em;
+  color: var(--text-color);
+  background: var(--primary-accent-color);
 }
-.hero-btn:hover, 
+.hero-btn:hover,
 .hero-btn:focus {
-    background: #404BBF;
+  background: var(--secondary-accent-color);
 }
 /* ------------------ABOUT------------------- */
 .about {
 }
 .about-title {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.22;
-letter-spacing: var(--letter-spacing);
-color: var(--most-text-color);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 .about-list {
-
 }
 .about-item {
 }
 .about-caption {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.22;
-letter-spacing: var(--letter-spacing);
-color: var(--most-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.22;
+  letter-spacing: var(--letter-spacing);
 }
 .about-subtitle {
-font-weight: 400;
-font-size: 16px;
-line-height: var(--line-height);
-letter-spacing: var(--letter-spacing);
-color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
+  color: var(----secondary-text-color);
 }
 /* ---------------GENERAL------------- */
 .general {
 }
 .general-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: var(--letter-spacing);
-color: var(--most-text-color);
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: var(--letter-spacing);
 }
 /* ------------------ TEAM-------------------- */
 .team-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: var(--letter-spacing);
-color: var(--most-text-color);
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: var(--letter-spacing);
+  background: var(--light-background-color);
 }
 .team-list {
 }
@@ -155,60 +155,73 @@ color: var(--most-text-color);
 .team-item {
 }
 .team-caption {
-    font-weight: 500;
-font-size: 20px;
-line-height: 1.20px;
-letter-spacing:var(--letter-spacing);
-color: var(--most-text-color);
+  font-size: 20px;
+  line-height: 1.2px;
+  letter-spacing: var(--letter-spacing);
 }
 .team-subtitle {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: var(--line-height);
-    letter-spacing: var(--letter-spacing);
-    color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
+  color: var(----secondary-text-color);
 }
 /* ------------------FOOter------------------- */
 
 .footer-link {
-    font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1.16px;
-letter-spacing: 0.03em;
-color: #4D5AE5;
-
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.16px;
+  letter-spacing: 0.03em;
+  color: var(--primary-accent-color);
 }
 .footer-span {
-    font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1.16px;
-letter-spacing: 0.03em;
-color: #F4F4FD;
-
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 1.16px;
+  letter-spacing: 0.03em;
+  color: var(--light-background-color);
 }
 .footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: var(--letter-spacing);
+  color: #e7e9fc;
 }
-
-
+.footer {
+  background: var(--dark-background-color);
+}
 
 /* ------------------PORTFOLIO------------------- */
 .btn-portfolio {
-    font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: var(--line-height);
-letter-spacing: 0.04em;
-color: #FFFFFF;
-background: #404BBF;
+  font-style: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: var(--line-height);
+  letter-spacing: 0.04em;
+  color: var(--text-color);
+  background: var(--secondary-accent-color);
 }
 .other-btn {
-    font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height:var(--line-height);
-letter-spacing: 0.04em;
-color: #4D5AE5;
-background: #F4F4FD;;
+  font-style: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: var(--line-height);
+  letter-spacing: 0.04em;
+  color: var(--primary-accent-color);
+  background: var(--light-background-color);
+}
+.second-caption {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: var(--letter-spacing);
+  color: var(--most-text-color);
+}
+.second-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
+  color: var(--secondary-text-color);
 }
